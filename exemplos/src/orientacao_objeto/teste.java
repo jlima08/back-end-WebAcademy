@@ -10,7 +10,15 @@ public class teste {
         // System.out.println(jonatas.nome);
 
         jonatas.setNome("Jonatas Araujo");
+        jonatas.setEmail("john@gmail");
+        jonatas.setTelefone("689999999");
         System.out.println(jonatas.getNome());
+        System.out.println(jonatas.getTelefone());
+        System.out.println(jonatas.getEmail());
+        
+        aluno vic = new aluno();
+        vic.setMatricula("20172017");
+        vic.setMatricula("99999999");
     }
     
 }
